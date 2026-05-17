@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+env/
+
+# API keys
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+data/tutor.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# IDE files
+.vscode/
+.idea/

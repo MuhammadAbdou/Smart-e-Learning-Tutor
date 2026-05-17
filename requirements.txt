@@ -1,0 +1,26 @@
+# ── Smart e-Learning Tutor — Requirements ──────────────────────────────
+# Install with:  pip install -r requirements.txt
+# Python version: 3.10 minimum, 3.11 recommended
+requires-python>=3.10
+
+# ── Web UI ──────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── HTTP client (OpenRouter API calls) ──────────────────────────────────
+requests>=2.31.0
+
+# ── RAG / Vector store ──────────────────────────────────────────────────
+faiss-cpu>=1.8.0
+numpy>=1.26.0
+
+# ── PDF processing ──────────────────────────────────────────────────────
+pymupdf>=1.24.0          # primary PDF extractor (fitz)
+pypdf>=4.2.0             # fallback PDF extractor
+python-docx>=0.8.11   # DOCX extractor
+
+# ── Image processing ────────────────────────────────────────────────────
+Pillow>=10.3.0           # PIL — resize, format conversion before vision API
+
+# ── Standard library (no install needed — listed for clarity) ───────────
+# uuid, sqlite3, json, logging, os, re, io, base64
+# dataclasses, datetime, enum, typing, pathlib
