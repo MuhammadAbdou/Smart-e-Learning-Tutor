@@ -149,7 +149,7 @@ smart_tutor/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/smart-e-learning-tutor.git
+git clone https://github.com/MuhammadAbdou/Smart-e-Learning-Tutor.git
 cd smart-e-learning-tutor
 
 # 2. Create and activate a virtual environment
