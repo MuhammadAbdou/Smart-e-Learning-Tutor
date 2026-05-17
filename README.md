@@ -6,6 +6,11 @@ An intelligent AI-driven tutoring system that delivers **personalized learning, 
 Built with **Python · Streamlit · OpenRouter/OpenAI API · FAISS · SQLite**
 
 ---
+## 🎥 Demo
+
+https://github.com/MuhammadAbdou/Smart-e-Learning-Tutor/raw/main/assets/demo.mp4
+
+---
 
 ## 🚀 Features
 
